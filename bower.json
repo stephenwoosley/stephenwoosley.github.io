@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-site",
+  "authors": [
+    "Stephen Woosley <swoosley@sharptop.co>"
+  ],
+  "description": "my personal dev portfolio site",
+  "main": "index.html",
+  "keywords": [
+    "personal",
+    "site",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "homepage": "www.stephenrwoosley.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
