@@ -6,7 +6,7 @@ const EducationOne = (props) => {
   return(
     <div className={props.oneClass}>
       <div className="education-one">
-        I’m an <span className="coral-span">avid learner</span>. In addition to my formal training, I’m a <span className="coral-span">self-taught</span> guitar player, surfer, and <span className="coral-span">web developer</span>. I’m also quite interested in the fields of <span className="coral-span">data science,</span> blockchain, and machine learning. 
+        I’m an <span className="coral-span">avid learner</span>. In addition to my formal training, I’m a <span className="coral-span">self-taught</span> guitar player, photographer, and <span className="coral-span">web developer</span>. I’m also quite interested in the fields of <span className="coral-span">data science,</span> blockchain, and machine learning. 
       </div>
       <div className="scroll-btn has-text-centered">
         <a className="scroll-button"

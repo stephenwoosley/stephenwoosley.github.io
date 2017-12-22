@@ -90,7 +90,7 @@ class Skills extends Component {
         .on('mouseout', d => { tooltip.style('display', 'none');});
         
     bars.transition()
-        .delay(700)
+        .delay(300)
         .attr('y', d => yScale(d.ability_level))
         .attr('height', d => h - yScale(d.ability_level))
     });
