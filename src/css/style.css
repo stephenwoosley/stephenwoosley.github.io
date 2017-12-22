@@ -86,6 +86,9 @@ a:hover {
   padding: 24px 0 24px 24px;
   font-size: .7em;
 }
+.copyright{
+  color: coral;
+}
 
 /* -------- FOOTER CSS -------- */
 
@@ -165,7 +168,7 @@ a:hover {
   font-size: 2rem;
   line-height: 1.5em;
   font-weight: 900;
-  padding-top: 35%;
+  padding-top: 25%;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
    -ms-animation: fadein 2s; /* Internet Explorer */

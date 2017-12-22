@@ -22,7 +22,7 @@ const ExperienceTwo = (props) => {
       <div className="scroll-btn has-text-centered">
         <a href="#experience-two" 
           className="scroll-button"
-          onClick={() => scroll.scrollTo(1600)}
+          onClick={() => scroll.scrollTo(1400)}
         >
           <svg className="arrows">
             <path className="a1" d="M10 0 L30 12 L50 0"></path>

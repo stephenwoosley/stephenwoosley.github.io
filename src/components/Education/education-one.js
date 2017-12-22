@@ -10,7 +10,7 @@ const EducationOne = (props) => {
       </div>
       <div className="scroll-btn has-text-centered">
         <a className="scroll-button"
-          onClick={() => scroll.scrollTo(800)}
+          onClick={() => scroll.scrollTo(650)}
         >
           <svg className="arrows">
             <path className="a1" d="M10 0 L30 12 L50 0"></path>

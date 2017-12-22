@@ -170,12 +170,9 @@ class App extends Component {
         </div>
         <footer className="footer">
             <div className="container">
-              <div className="content has-text-left">
+              <div className="content has-text-centered">
                 <p>
-                  Made by Stephen
-                  {/* <figure class="image is-16x16">
-                    <img src="http://res.cloudinary.com/stephenrwoosley/image/upload/v1513179546/me-cutout_wmqxhd.png"/>
-                  </figure> */}
+                  STEPHEN WOOSLEY <span className="copyright">&copy;2017</span>
                 </p>
               </div>
             </div>
