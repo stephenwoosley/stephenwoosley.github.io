@@ -101,7 +101,7 @@ a:hover {
 }
 @-moz-document url-prefix() {
   .chart-holder {
-      margin-top: 50px;
+      margin-top: 120px;
   }
 }
 

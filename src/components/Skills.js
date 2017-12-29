@@ -93,14 +93,23 @@ class Skills extends Component {
         .delay(300)
         .attr('y', d => yScale(d.ability_level))
         .attr('height', d => h - yScale(d.ability_level))
+
+    svgBarChart.append('text')
+        .attr("class", "axisLighter")
+        .attr('x', 350)
+        .attr('y', 0)
+        .text('Skill Level by Technology')
+        .attr('font-family', 'BlinkMacSystemFont,-apple-system,,Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,sans-serif')
+        .attr('font-size', '20px')
+        .attr('font-weight', 'bold')
+        .attr('fill', 'black')
+        .attr('transform', 'translate(0,32)');
     });
   }
 
   render() {
     return (
-      <div className="chart-holder">
-        {/* <svg width='960' height='500'></svg> */}
-      </div>
+      <div className="chart-holder"></div>
     );
   }
 }
