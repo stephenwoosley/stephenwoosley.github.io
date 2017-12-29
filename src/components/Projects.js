@@ -9,68 +9,28 @@ const Projects = (props) => {
           <div className="columns">
             <div className="column">
               <div className="box">
-                <article className="media">
-                  <div className="media-left">
-                    <figure className="image">
-                      <img src="../images/wooslist.png" alt="wooslist app"/>
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <div className="content">
-                      <p>
-                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                        <br></br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                      </p>
-                    </div>
-                    <nav className="level is-mobile">
-                      <div className="level-left">
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-reply"></i></span>
-                        </a>
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-retweet"></i></span>
-                        </a>
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-heart"></i></span>
-                        </a>
-                      </div>
-                    </nav>
-                  </div>
-                </article>
+                <p className="img-desc"><span className="coral-span">Woosreads</span>, a full-stack MERN application using Create-React-App.</p>
+                <img src={require('../images/woosreads.gif')} alt="woosreads app"/>
               </div>
             </div>
+            <div className="column is-half">
+              <div className="box">
+                <p className="img-desc">A site built for <span className="coral-span">SwipeRight LLC</span>, using SASS & Bootstrap.</p>
+                <img src={require('../images/swipe-right.gif')} alt="swipe right site"/>
+              </div>
+            </div>
+          </div>
+          <div className="columns">
             <div className="column">
               <div className="box">
-                <article className="media">
-                  <div className="media-left">
-                    <figure>
-                      <img src="../images/woosreads.gif" alt="woosreads app"/>
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <div className="content">
-                      <p>
-                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-                        <br></br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                      </p>
-                    </div>
-                    <nav className="level is-mobile">
-                      <div className="level-left">
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-reply"></i></span>
-                        </a>
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-retweet"></i></span>
-                        </a>
-                        <a className="level-item">
-                          <span className="icon is-small"><i className="fa fa-heart"></i></span>
-                        </a>
-                      </div>
-                    </nav>
-                  </div>
-                </article>
+                <p className="img-desc">A US Census <span className="coral-span">data viz project</span> built with D3, React, & Bulma CSS.</p>
+                <img src={require('../images/d3-chart.gif')} alt="census data viz app"/>
+              </div>
+            </div>
+            <div className="column is-half">
+              <div className="box">
+              <p className="img-desc"><span className="coral-span">Wooslist</span>, a React/Flexbox to-do app built without Create-React-App.</p>
+              <img src={require('../images/wooslist.png')} alt="wooslist app"/>
               </div>
             </div>
           </div>
