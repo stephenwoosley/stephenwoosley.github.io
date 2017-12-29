@@ -13,8 +13,6 @@ class Experience extends Component {
       oneClass: 'show',
       twoClass: 'hidden',
       threeClass: 'hidden',
-      showLeftArrow: true,
-      showRightArrow: true,
     }
     componentDidMount() {
     
@@ -43,7 +41,6 @@ class Experience extends Component {
         console.log("end", arguments);
       });
       
-      // sr.reveal(this.refs.experienceonebox, configOne)
       sr.reveal(this.refs.experiencetwobox, configTwo)
       sr.reveal(this.refs.experiencethreebox, configThree)
     }
@@ -79,7 +76,7 @@ class Experience extends Component {
                         oneClass={this.state.oneClass}
                       />
                     </div>
-                  <div ref="experiencetwobox" className="experiencetwobox" name="experience-two">
+                  <div ref="experiencetwobox" className="experiencetwobox">
                       <ExperienceTwo 
                         twoClass={this.state.twoClass}
                       />

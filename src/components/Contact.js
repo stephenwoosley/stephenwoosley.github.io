@@ -12,7 +12,7 @@ const Contact = (props) => {
               Feel free to reach out to me on <a href="https://linkedin.com/in/stephenwoosley">LinkedIn</a>, follow me on <a href="https://twitter.com/stephenwoosley">Twitter</a>, or check out my <a href="https://github.com/stephenwoosley">Github page</a>.
             </h1>
             <h1 className="title contact-content" id="contact-2par">
-              Or just drop me a line here:
+              Or send me a quick message here:
             </h1>
             <form method="POST" action="http://formspree.io/stephenrwoosley@gmail.com">
               <div className="field">

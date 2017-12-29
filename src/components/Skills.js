@@ -16,19 +16,19 @@ class Skills extends Component {
   displayLevel(num) {
     switch(num) {
       case '2':
-        return "Working Knowledge"
+        return "Working Knowledge";
         break;
       case '3':
-        return "Some Experience"
+        return "Some Experience";
         break;
       case '4':
-        return "Proficient"
+        return "Proficient";
         break;
       case '5':
-        return "Very Proficient"
+        return "Very Proficient";
         break;
       default:
-        break;
+        console.log("switch didn't work")
     }
   }
 

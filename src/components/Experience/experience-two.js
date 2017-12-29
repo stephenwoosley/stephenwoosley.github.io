@@ -7,8 +7,7 @@ const ExperienceTwo = (props) => {
     
     <div className={props.twoClass}>
       <div className="scroll-btn has-text-centered">
-        <a href="#experience-two" 
-          className="scroll-button"
+        <a className="scroll-button"
           onClick={() => scroll.scrollTo(0)}
         >
           <svg className="arrows">
@@ -20,8 +19,7 @@ const ExperienceTwo = (props) => {
         In 2014 I began <span className="coral-span">moonlighting</span> as a developer-in-training, and began working for a string of <span className="coral-span">small startups</span>. I even <span className="coral-span">co-founded a coding bootcamp</span> in 2016.
       </div>
       <div className="scroll-btn has-text-centered">
-        <a href="#experience-two" 
-          className="scroll-button"
+        <a className="scroll-button"
           onClick={() => scroll.scrollTo(1600)}
         >
           <svg className="arrows">

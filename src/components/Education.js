@@ -13,8 +13,6 @@ class Education extends Component {
       oneClass: 'show',
       twoClass: 'hidden',
       threeClass: 'hidden',
-      showLeftArrow: true,
-      showRightArrow: true,
     }
     componentDidMount() {
     
@@ -43,7 +41,6 @@ class Education extends Component {
         console.log("end", arguments);
       });
       
-      // sr.reveal(this.refs.educationonebox, configOne)
       sr.reveal(this.refs.educationtwobox, configTwo)
       sr.reveal(this.refs.educationthreebox, configThree)
     }
@@ -79,7 +76,7 @@ class Education extends Component {
                         oneClass={this.state.oneClass}
                       />
                     </div>
-                  <div ref="educationtwobox" className="educationtwobox" name="education-two">
+                  <div ref="educationtwobox" className="educationtwobox">
                       <EducationTwo 
                         twoClass={this.state.twoClass}
                       />

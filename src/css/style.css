@@ -99,6 +99,11 @@ a:hover {
   margin-top: 10%;
   margin-left: 7.5%;
 }
+@-moz-document url-prefix() {
+  .chart-holder {
+      margin-top: 50px;
+  }
+}
 
 .toolTip {
   position: absolute;

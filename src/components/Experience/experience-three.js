@@ -6,8 +6,7 @@ const ExperienceThree = (props) => {
   return(
     <div className={props.threeClass}>
       <div className="scroll-btn has-text-centered">
-        <a href="#experience-two" 
-          className="scroll-button"
+        <a className="scroll-button"
           onClick={() => scroll.scrollTo(800)}
         >
           <svg className="arrows">
