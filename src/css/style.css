@@ -165,6 +165,19 @@ a:hover {
 
 /* -------- GLOBAL CONTENT CSS -------- */
 
+.projects-content {
+  letter-spacing: .075em;
+  font-family: 'Lato', sans-serif;
+  color: #363636;
+  line-height: 1.5em;
+  padding-top: 25%;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+}
+
 /* header-like font style and spacing */
 .about-content, .experience-content, .education-content, .contact-content {
   letter-spacing: .075em;
