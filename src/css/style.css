@@ -236,6 +236,22 @@ a:hover {
 
 /* -------- GLOBAL CONTENT CSS -------- */
 
+.built-with {
+  margin-left: 10px;
+}
+
+.built-with a {
+  color: coral;
+}
+
+.built-with a:hover {
+  color: #464646;
+}
+
+.copyright {
+  margin-right: 10px
+}
+
 
 
 

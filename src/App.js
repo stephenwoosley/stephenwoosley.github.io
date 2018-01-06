@@ -172,8 +172,12 @@ class App extends Component {
             <div className="container">
               <div className="content has-text-centered">
                 <p>
-                  STEPHEN WOOSLEY <span className="copyright">&copy;2017</span>
+                  STEPHEN WOOSLEY <span className="copyright">&copy;2017</span> ||
+                  <span className="built-with">
+                  Made from scratch with <a href="https://reactjs.org/">React.js</a>, <a href="https://d3js.org/">D3.js</a>, and <a href="https://bulma.io/">Bulma CSS</a>.
+                </span>
                 </p>
+                
               </div>
             </div>
           </footer>
