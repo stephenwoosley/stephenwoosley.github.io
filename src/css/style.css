@@ -187,6 +187,10 @@ a:hover {
 /* -------- GLOBAL CONTENT CSS -------- */
 
 
+#wrapper {
+  padding: 0 10% 0 10%;
+}
+
 
 /* header-like font style and spacing */
 .about-content, .experience-content, .education-content, .contact-content {
@@ -250,6 +254,57 @@ a:hover {
 
 .copyright {
   margin-right: 10px
+}
+
+/* --------- MEDIA QUERIES  ----------*/
+
+
+@media only screen and (max-width: 1407px)  {
+  #wrapper {
+    padding: 5% 10% 0 10%;
+  }
+}
+
+@media only screen and (max-width: 1023px)  {
+  #wrapper {
+    padding: 7.5% 10% 0 10%;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  #wrapper {
+    padding: 10% 15% 0 15%;
+  }
+  .about-content, .experience-content, .education-content, .contact-content {
+    font-size: 1.5rem;
+  }
+  .container li {
+    font-size: .9rem;
+  }
+  .level-item {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 632px)  {
+  .name-title h1 {
+    font-size: 1em;
+  }
+  .subtitle h3 {
+    font-size: 1.1em;
+  }
+  .container li {
+    font-size: .75rem;
+  }
+}
+
+@media only screen and (max-width: 530px)  {
+  #wrapper {
+    padding: 20% 15% 0 15%;
+  }
+  .about-content, .experience-content, .education-content, .contact-content {
+    font-size: 1.25rem;
+  }
 }
 
 
